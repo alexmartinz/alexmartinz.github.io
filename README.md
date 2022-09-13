@@ -1,2 +1,2 @@
 # alexmartinz.github.io
-Coursera projects.
+Coursera projects for the course HTML, CSS, JavaScript for Web Developer.
