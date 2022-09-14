@@ -1,5 +1,154 @@
-/*** Base Styles ***/
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+}
 
-/*** Table Styles ***/
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;	
+}
 
-/*** Mobil Styles ***/
+.caja > p {
+	float: right;
+	font-family: Verdana, Tahoma, sans-serif;
+	text-align: center;
+}
+
+/** Simple Responsive Framework **/
+.row {
+  	width: 80%;
+  	margin: 0 auto;
+  	padding: 20px;
+}
+
+/*** Large Device Only ***/
+@media screen and (min-width: 992px) {
+
+	.caja {
+		width: 30%;
+  		border: 4px solid black;
+  		background-color: darkgray;
+  		margin: 0 auto;
+  		float: left;
+		margin-left: 15px;
+	}
+
+	.comida {
+		border: 3px solid black;
+		float: right;
+	}
+
+	#box1 {
+		width: 30%;
+		background-color: rosybrown;
+		color: black;
+	}
+
+	#box2 {
+		width: 30%;
+		background-color: darkred;
+		color: aliceblue;
+	}
+
+	#box3 {
+		width: 30%;
+		background-color: rgb(204, 204, 87);
+		color: black;
+	}
+
+	#box1, #box2, #box3 p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+}
+
+/*** Medium Device Only ***/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.caja {
+		width: 47%;
+  		border: 4px solid black;
+  		background-color: darkgray;
+  		margin: 0 auto;
+  		float: left;
+	}
+
+	#caja3Large {
+		margin-top: 40px;
+		width: 100%; 
+	}
+
+	#caja2 {
+		float: right;
+	}
+
+	.comida {
+		border: 3px solid black;
+		float: right;
+	}
+
+	#box1 {
+		width: 30%;
+		background-color: rosybrown;
+		color: black;
+	}
+
+	#box2 {
+		width: 30%;
+		background-color: darkred;
+		color: aliceblue;
+	}
+
+	#box3 {
+		width: 30%;
+		background-color: rgb(204, 204, 87);
+		color: black;
+	}
+
+	#box1, #box2, #box3 p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+}
+
+/*** Small Device Only ***/
+@media screen and (max-width: 767px) {
+	.caja {
+		width: 100%;
+		border: 4px solid black;
+		background-color: darkgray;
+		margin: 0 auto;
+		float: left;
+		margin-bottom: 30px;
+	}
+
+	.comida {
+		border: 3px solid black;
+		float: right;
+	}
+
+	#box1 {
+		width: 30%;
+		background-color: rosybrown;
+		color: black;
+	}
+
+	#box2 {
+		width: 30%;
+		background-color: darkred;
+		color: aliceblue;
+	}
+
+	#box3 {
+		width: 30%;
+		background-color: rgb(204, 204, 87);
+		color: black;
+	}
+
+	#box1, #box2, #box3 p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+	}
+}
